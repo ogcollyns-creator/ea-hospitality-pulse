@@ -1,18 +1,51 @@
 {
- "generated": "2026-11-26T00:14:41+03:00",
+ "generated": "2026-11-26T02:49:03+03:00",
  "slot": "morning",
  "window_start": 1795618800,
- "observations_in_window": 381,
+ "observations_in_window": 497,
  "deduped_against": 20,
  "candidates": [
   {
-   "score": 99.3,
+   "score": 101.3,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "34901da8cc04",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":141,\"results\":[{\"agencies\":[{\"raw_name\":\"RAILROAD RETIREMENT BOARD\",\"name\":\"Railroad Retirement Board\",\"id\":444,\"url\":\"https://www.federalregister.gov/agencies/railroad-retirement-board\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/444\",\"parent_id\":null,\"slug\":\"railroad-retirement-board\"}],\"agency_letters\":[],\"agency_names\":[\"Railroad Retirement Board\"],\"docket_numbers\":[],",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-26T02:42+03:00",
+   "published": "2026-11-24",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 96.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 14.8,
     "corroborated": 10,
     "page_change": -4
    },
@@ -39,13 +72,164 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 98.3,
+   "score": 65.3,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "0cc969088799",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 2213000071460276538-241197254590136791",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 107.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "investment",
+    "pipeline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "d87cf58aa656",
+   "title": "Hilton Surpasses 60 Hotels in Egypt, with a Growing Pipeline Representing a Combined Owner Investment of USD $1.6 Billion",
+   "url": "https://stories.hilton.com/releases/hilton-surpasses-60-hotels-in-egypt",
+   "summary": "CAIRO, Egypt \u2013 Hilton (Nasdaq: HLT) today announced that its portfolio in Egypt has grown to more than 60 hotels trading and in the pipeline \u2013 representing a combined investment of USD $1.6 billion from hotel owners and investors into Hilton\u2019s growing portfolio and marking a significant milestone in one of the company\u2019s longest-standing markets [\u2026] The post Hilton Surpasses 60 Hotels in Egypt, wit",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": "2026-11-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 107.5,
+   "components": {
+    "tier": 40,
+    "category": 9,
+    "lead": 16.8,
+    "relevance": 12,
+    "freshness": 19.7,
+    "corroborated": 10
+   },
+   "keywords": [
+    "hotel",
+    "signing",
+    "rooms"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "2fae73941374",
+   "title": "Hilton and Sun Group Expand Strategic Partnership to 10 Hotels and More Than 5,000 Rooms Across Vietnam",
+   "url": "https://stories.hilton.com/releases/hilton-and-sun-group-expand-strategic-partnership-across-vietnam",
+   "summary": "SINGAPORE \u2013 Hilton (Nasdaq: HLT) today announced four new hotel agreements in Phu Quoc with longstanding partner Sun Group, expanding their strategic partnership to 10 hotels spanning nine Hilton brands and more than 5,000 rooms across Vietnam. The four signings will add a combined 2,369 rooms, with three hotels planned for Hon Thom Island under [\u2026] The post Hilton and Sun Group Expand Strategic P",
+   "kind": "item",
+   "source": "Hilton stories/newsroom",
+   "source_id": "dev-hilton",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "hotel-group",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": "2026-11-25",
+   "verdict": "STRONG \u2014 tier-1, upstream"
+  },
+  {
+   "score": 101.7,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 0.0,
+    "relevance": 44,
+    "freshness": 19.7,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "insolven",
+    "collapse",
+    "airport",
+    "airline",
+    "traffic",
+    "passenger"
+   ],
+   "shock_terms": [
+    "insolven"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "3fb5a6abcb92",
+   "title": "Air Berlin\u2019s Creditors May Finally See Money. Germany\u2019s Capital Is Still Waiting for a Hub",
+   "url": "https://eturbonews.com/air-berlins-creditors-may-finally-see-money-germanys-capital-is-still-waiting-for-a-hub",
+   "summary": ": A settlement with former Air Berlin chief executive Thomas Winkelmann and his insurers will add a high double-digit million euro sum to two insolvency estates, according to administrator Lucas Fl\u00f6ther. Nearly a decade after Germany\u2019s second-largest airline stopped flying, creditors may recover a small share of what they are owed. The collapse also left a gap that passenger growth could never fil",
+   "kind": "item",
+   "source": "eTurboNews Africa",
+   "source_id": "tp-eturbonews",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:42+03:00",
+   "published": "2026-11-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 95.4,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -77,13 +261,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 94.3,
+   "score": 91.4,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -115,13 +299,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 89.5,
+   "score": 86.6,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 4,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [
@@ -150,13 +334,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -183,13 +367,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 85.5,
+   "score": 82.6,
    "components": {
     "tier": 40,
     "category": 17,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -216,13 +400,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.5,
+   "score": 80.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [
@@ -251,13 +435,178 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 83.3,
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "8713898d9a8c",
+   "title": "Order Paper For Thursday, 26th November 2026",
+   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2026TH%20NOVEMBER%202026.pdf",
+   "summary": "!!\"#$%&&'%\"()*$+#*,&'%!!!!!!!!!!!!!!!!-#.%\"(/&00#1'((2314(5567(((((((((((((((((((((((((((((((((268987((!:;)<=>?@(A-(B;3CD(!!E?:!;;3!E()D:>?DF;3!(G(2-?-!E(/;//?A37((!\"#$%&!'(%&)$&**#+,)-$(A:H;:/(A-(!E;(HDC(!!!!E<:/HDCI(3AJ;F=;:(68I(6K68(D!(64LK()4F4(!(./#.$(0$,1*'%#**$!):DC;:/(!!\"!!\"#$%$&'()'$*%+*,+-)'.+#\"!/*##0%$1)'$*%+,(*#+'.2+/.)$(+$\"!32&&)42&+%\"!52'$'$*%&+&\"!5)62(&+'\"!7*'$12&+*,+3*'$*%++(\"!802&",
+   "kind": "doc",
+   "source": "Parliament of Kenya \u2014 bills & papers",
+   "source_id": "ke-parliament",
+   "tier": 1,
+   "country": "KE",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "e841097d9c27",
+   "title": "Functional dams can deter Karamoja famine - MPs Wednesday, 25 November 2026",
+   "url": "https://www.parliament.go.ug/news/4760/functional-dams-can-deter-karamoja-famine-mps",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "1f78f2985c90",
+   "title": "Govt to tighten oversight of telecom data billing Wednesday, 25 November 2026",
+   "url": "https://www.parliament.go.ug/news/4759/govt-tighten-oversight-telecom-data-billing",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "251fea6e5b33",
+   "title": "\u2018Strengthen Missions to Protect Ugandans in distress abroad\u2019 Wednesday, 25 November 2026",
+   "url": "https://www.parliament.go.ug/news/4758/strengthen-missions-protect-ugandans-distress-abroad",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.5,
+   "components": {
+    "tier": 40,
+    "category": 10,
+    "lead": 16.8,
+    "relevance": 0,
+    "freshness": 19.7,
+    "undated": -6
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "993b93e1ccc2",
+   "title": "Illegal mineral dealers in trouble as Govt cracks whip Wednesday, 25 November 2026",
+   "url": "https://www.parliament.go.ug/news/4757/illegal-mineral-dealers-trouble-govt-cracks-whip",
+   "summary": "",
+   "kind": "item",
+   "source": "Parliament of Uganda",
+   "source_id": "ug-parliament",
+   "tier": 1,
+   "country": "UG",
+   "category": "legislature",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T02:41+03:00",
+   "published": null,
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.4,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -284,13 +633,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.1,
+   "score": 79.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -317,13 +666,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.1,
+   "score": 79.2,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [],
@@ -350,13 +699,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.1,
+   "score": 77.3,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 40,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -390,13 +739,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -423,13 +772,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -456,13 +805,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -489,13 +838,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -522,13 +871,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -555,13 +904,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -588,13 +937,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -621,13 +970,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.1,
+   "score": 75.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -654,13 +1003,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 77.7,
+   "score": 74.9,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 8,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -692,13 +1041,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.3,
+   "score": 73.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 20,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -729,13 +1078,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 76.1,
+   "score": 73.3,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 4,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10,
     "shock": 18
    },
@@ -767,13 +1116,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.5,
+   "score": 72.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -800,13 +1149,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.5,
+   "score": 72.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -833,13 +1182,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.5,
+   "score": 72.6,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 0,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "undated": -6
    },
    "keywords": [],
@@ -866,13 +1215,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 75.1,
+   "score": 72.3,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
     "relevance": 20,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -903,13 +1252,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 72.3,
+   "score": 69.5,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 3.6,
     "relevance": 16,
-    "freshness": 17.7,
+    "freshness": 14.9,
     "corroborated": 10
    },
    "keywords": [
@@ -937,16 +1286,16 @@
    ],
    "first_seen": "2026-11-25T22:19+03:00",
    "published": "2026-11-25",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 72.3,
+   "score": 69.4,
    "components": {
     "tier": 20,
     "category": 9,
     "lead": 3.6,
     "relevance": 12,
-    "freshness": 17.7,
+    "freshness": 14.8,
     "corroborated": 10
    },
    "keywords": [
@@ -973,122 +1322,50 @@
    ],
    "first_seen": "2026-11-25T22:19+03:00",
    "published": "2026-11-24",
-   "verdict": "CONSIDER"
+   "verdict": "weak"
   },
   {
-   "score": 71.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [],
-   "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "8b7a073aaf40",
-   "title": "UHRC denies compensation to family of man shot dead during mob attack on police post",
-   "url": "https://www.monitor.co.ug/uganda/news/national/uhrc-denies-compensation-to-family-of-man-shot-dead-during-mob-attack-on-police-post-5684472",
-   "summary": "The officers had reportedly attempted to disperse the crowd using tear gas and warning shots...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-26T00:14+03:00",
-   "published": "2026-11-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 71.1,
+   "score": 69.1,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 2.4,
-    "relevance": 16,
-    "freshness": 17.7,
+    "relevance": 12,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
     "adr",
-    "hotel",
-    "camp"
+    "hotel"
    ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "4d389fe87af8",
-   "title": "Why Hotel Marketing Fails Without a Revenue Management Strategy",
-   "url": "https://www.hospitalitynet.org/opinion/4135705/why-hotel-marketing-fails-without-a-revenue-management-strategy",
-   "summary": "The article argues that hotel marketing only works when integrated with revenue management, introducing a 15% cost rule for direct channels and showing how demand data, ADR, and reputation scores should guide campaign decisions.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 68.7,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 17.7,
-    "undated": -6
-   },
-   "keywords": [],
    "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.0,
-   "id": "3e745a84ce46",
-   "title": "Order Paper For Thursday, 26th November 2026",
-   "url": "https://www.parliament.go.ke/sites/default/files/2026-11/ORDER%20PAPER%20FOR%20THURSDAY%2C%2026TH%20NOVEMBER%202026.pdf",
-   "summary": "!!\"#$%&&'%\"()*$+#*,&'%!!!!!!!!!!!!!!!!-#.%\"(/&00#1'((2314(5567(((((((((((((((((((((((((((((((((268987((!:;)<=>?@(A-(B;3CD(!!E?:!;;3!E()D:>?DF;3!(G(2-?-!E(/;//?A37((!\"#$%&!'(%&)$&**#+,)-$(A:H;:/(A-(!E;(HDC(!!!!E<:/HDCI(3AJ;F=;:(68I(6K68(D!(64LK()4F4(!(./#.$(0$,1*'%#**$!):DC;:/(!!\"!!\"#$%$&'()'$*%+*,+-)'.+#\"!/*##0%$1)'$*%+,(*#+'.2+/.)$(+$\"!32&&)42&+%\"!52'$'$*%&+&\"!5)62(&+'\"!7*'$12&+*,+3*'$*%++(\"!802&",
-   "kind": "doc",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
+   "id": "379306cea7e3",
+   "title": "HVS U.S. Market Pulse: November 2026",
+   "url": "https://www.hotelnewsresource.com/article143897.html",
+   "summary": "Early November results reflect continued strength in the hotel sector, taking us into the holiday season with new highs in travel\u2014both in room nights generated and the ADR achieved. We\u2019ll be monitoring how the recent stock market correction may affect near-term travel budgets, but we are transitioning into holiday/winter weeks that typically see fewer hotel stays overall.",
+   "kind": "item",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "trade",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "city"
    ],
-   "first_seen": "2026-11-25T22:18+03:00",
-   "published": null,
+   "first_seen": "2026-11-26T02:42+03:00",
+   "published": "2026-11-25",
    "verdict": "weak"
   },
   {
-   "score": 68.3,
+   "score": 69.1,
    "components": {
     "tier": 20,
     "category": 5,
-    "lead": 3.6,
+    "lead": 2.4,
     "relevance": 12,
-    "freshness": 17.7,
+    "freshness": 19.7,
     "corroborated": 10
    },
    "keywords": [
@@ -1097,306 +1374,21 @@
    ],
    "shock_terms": [],
    "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "9deaf02bb6c4",
-   "title": "AI Is Taking the Jobs That Trained Future GMs, Chains Sign Up the Independents, Meta's Muse Wants a Cut",
-   "url": "https://www.hospitalitynet.org/editorial/4135703/ai-is-taking-the-jobs-that-trained-future-gms-chains-sign-up-the-independents-metas-muse-wants-a-cut",
-   "summary": "Wednesday asked who trains tomorrow's hotel managers once AI takes over the entry-level jobs that used to teach them, and why the fastest-growing independent hotels now carry a chain badge.",
+   "dedupe_similarity": 0.4,
+   "id": "d388fc40b8d9",
+   "title": "How to Write a Hotel Business Plan In 2027 - By Lana Cook",
+   "url": "https://www.hotelnewsresource.com/article143895.html",
+   "summary": "Lana Cook outlines the essential components and updated best practices for creating a hotel business plan in 2027, emphasizing the importance of detailed market analysis, financial projections, and strategic positioning to attract investors and support successful hotel development or repositioning.",
    "kind": "item",
-   "source": "Hospitality Net \u2014 Africa announcements",
-   "source_id": "dev-hospitalitynet-africa",
+   "source": "HVS \u2014 market reports and event-impact studies (via Hotel News Resource)",
+   "source_id": "gl-hvs-market-reports",
    "tier": 2,
-   "country": "REG",
+   "country": "GLOBAL",
    "category": "trade",
    "segments": [
-    "city",
-    "bush",
-    "beach"
+    "city"
    ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 68.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.7,
-    "undated": -6,
-    "shock": 18
-   },
-   "keywords": [
-    "evacuat"
-   ],
-   "shock_terms": [
-    "evacuat"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "ab2d85ddc57b",
-   "title": "entertainment . 2 days ago US rapper postpones O2 arena show after Manchester evacuation",
-   "url": "https://nilepost.co.ug/entertainment/389981/us-rapper-postpones-o2-arena-show-after-manchester-evacuation",
-   "summary": "",
-   "kind": "item",
-   "source": "Nile Post (Uganda)",
-   "source_id": "ug-nilepost",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": null,
-   "verdict": "weak"
-  },
-  {
-   "score": 67.1,
-   "components": {
-    "tier": 20,
-    "category": 5,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "hotel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "cf694a8eeb45",
-   "title": "AI Is Taking the Jobs That Trained Future GMs, Chains Sign Up the Independents, Meta's Muse Wants a Cut",
-   "url": "https://www.hospitalitynet.org/editorial/4135703/ai-is-taking-the-jobs-that-trained-future-gms-chains-sign-up-the-independents-metas-muse-wants-a-cut",
-   "summary": "Wednesday asked who trains tomorrow's hotel managers once AI takes over the entry-level jobs that used to teach them, and why the fastest-growing independent hotels now carry a chain badge.",
-   "kind": "item",
-   "source": "Hospitality Net: Africa openings",
-   "source_id": "dev-hospitalitynet-openings",
-   "tier": 2,
-   "country": "AFRICA",
-   "category": "trade",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "capacity",
-    "investment"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.2,
-   "id": "c9223e2c441b",
-   "title": "Museveni hails Uganda\u2019s growing defence technology capacity",
-   "url": "https://www.independent.co.ug/museveni-hails-ugandas-growing-defence-technology-capacity",
-   "summary": "Kampala, Uganda | URN | Uganda is expanding its domestic defence manufacturing capacity, with new investments in threat-detection technology, armoured vehicle production, aircraft maintenance and engineering, as the government seeks to reduce reliance on foreign suppliers. President Yoweri Museveni has commended Luwero Industries and National Enterprise Corporation (NEC) Technologies for developin",
-   "kind": "item",
-   "source": "The Independent (Uganda)",
-   "source_id": "ug-independent",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 66.1,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 12,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "eta",
-    "shilling"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "b07a75cc3570",
-   "title": "Details of Ruto's Agreement With Germany to Unlock 200,000 Jobs for Kenyans",
-   "url": "https://www.kenyans.co.ke/news/129678-ruto-german-president-agree-new-measures-expand-jobs-kenyans",
-   "summary": "Kenya and Germany have shared diplomatic relations for 63 years, with the new deal set to pump billions of shillings into Kenya's key economy sectors.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 65.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 12,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "collapse"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "aa62bcad7e51",
-   "title": "Kabale legal fraternity mourns young advocate Atuhere Baraba after sudden collapse",
-   "url": "https://www.monitor.co.ug/uganda/news/national/kabale-legal-fraternity-mourns-young-advocate-atuhere-baraba-after-sudden-collapse-5684424",
-   "summary": "Baraba\u2019s untimely passing comes just days after he spoke to this publication on Friday...",
-   "kind": "item",
-   "source": "Daily Monitor (Uganda)",
-   "source_id": "np-monitor-ug",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-26T00:14+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "3ad70a762f96",
-   "title": "\u00dcbernachtungen: Schleswig-Holstein-Tourismus leicht im Plus",
-   "url": "https://www.fvw.de/touristik/destination/uebernachtungen-schleswig-holstein-tourismus-leicht-im-plus-266386",
-   "summary": "Der Schleswig-Holstein-Tourismus liegt nach den ersten drei Quartalen 2026 leicht \u00fcber dem Vorjahresniveau. Laut dem Statistikamt Nord wurden von Januar bis September etwa 32 Mio. \u00dcbernachtungen registriert.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "airline"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.17,
-   "id": "e33c932dd8fb",
-   "title": "Gewichtiges Gr\u00fcndungsmitglied: Ryanair verl\u00e4sst Lobby-Verband Airlines for Europe",
-   "url": "https://www.fvw.de/touristik/verkehr/gewichtiges-gruendungsmitglied-ryanair-verlaesst-lobbyverband-airlines-for-europe-266369",
-   "summary": "Nach Androhungen Anfang Oktober tritt Ryanair aus dem Verband der europ\u00e4ischen Airlines aus. Das best\u00e4tigt eine Sprecherin von Airlines for Europe (A4E). Grund sei eine Klage gegen den Billigflieger.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
-   "published": "2026-11-25",
-   "verdict": "weak"
-  },
-  {
-   "score": 64.3,
-   "components": {
-    "tier": 20,
-    "category": 9,
-    "lead": 3.6,
-    "relevance": 4,
-    "freshness": 17.7,
-    "corroborated": 10
-   },
-   "keywords": [
-    "franc"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "6e90afa9c69d",
-   "title": "T\u00f6dliche Havarie: Ex-\"Costa Concordia\"-Kapit\u00e4n verl\u00e4sst Gef\u00e4ngnis",
-   "url": "https://www.fvw.de/touristik/kreuzfahrt/toedliche-havarie-ex-costa-concordia-kapitaen-verlaesst-das-gefaengnis-266365",
-   "summary": "Beim Untergang der Costa Concordia kamen 32 Menschen ums Leben. Nun darf Francesco Schettino seine Haftstrafe au\u00dferhalb des Gef\u00e4ngnisses fortsetzen \u2013 ein Versto\u00df k\u00f6nnte ihn aber zur\u00fcckbringen.",
-   "kind": "item",
-   "source": "FVW / German travel trade",
-   "source_id": "sm-derreise",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "source-market",
-   "segments": [
-    "beach",
-    "bush"
-   ],
-   "first_seen": "2026-11-25T22:19+03:00",
+   "first_seen": "2026-11-26T02:42+03:00",
    "published": "2026-11-25",
    "verdict": "weak"
   }
