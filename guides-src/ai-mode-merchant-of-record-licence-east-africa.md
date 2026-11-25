@@ -4,6 +4,8 @@ slug: ai-mode-merchant-of-record-licence-east-africa
 description: Fifty-two per cent of American travellers planned a trip with AI this year. About two per cent booked through one. Phocuswright's director of research called the gap "the number to watch", and three days of conference panels agreed on why it exists: nobody has settled who is accountable when an agentic booking goes wrong. The industry's three answers to that question are loyalty scale, merchant of record, and refusal. An East African lodge has access to none of them.
 category: Big Read
 updated: 2026-11-25
+image: "img/editions/ai-mode-merchant-of-record-licence-east-africa.jpg"
+image_credit: "Photograph: Geoffrey / Adobe Stock"
 ---
 Alicia Schmid put two numbers on a screen in Fort Lauderdale last week and let the room sit with them. Fifty-two per cent of American travellers had used artificial intelligence to plan a trip in the previous twelve months. About two per cent had booked through an AI platform, rising to roughly eight per cent if you counted Google's AI Mode. Schmid, Phocuswright's director of research, then added the figure that gives the first two their meaning: forty-three per cent of travellers who are familiar with AI say they would book inside an AI platform. The distance between forty-three and two, she told delegates at the Signia by Hilton Diplomat Beach Resort, is "the number to watch."
 
