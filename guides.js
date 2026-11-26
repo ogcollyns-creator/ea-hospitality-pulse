@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "kenya-alcohol-bill-clause-says-restaurant",
+  "title": "Kenya's hotels are arguing about the drinking age. The clause that closes the bar says \"restaurant\".",
+  "description": "On 23 November a joint hospitality memorandum reached Parliament Buildings opposing Kenya's new alcohol Bill. Almost all of it argues about raising the drinking age from 18 to 21. The clause that would strip the licence from a hotel's dining room is a list of premises, and no version of that list published so far contains the word hotel.",
+  "category": "Big Read",
+  "updated": "2026-11-26",
+  "readMins": 8,
+  "image": "img/editions/kenya-alcohol-bill-clause-says-restaurant.jpg"
+ },
+ {
   "slug": "ai-mode-merchant-of-record-licence-east-africa",
   "title": "Google's AI Mode will now book the room. Nothing in it has a field for the licence Kenya requires.",
   "description": "Fifty-two per cent of American travellers planned a trip with AI this year. About two per cent booked through one. Phocuswright's director of research called the gap \"the number to watch\", and three days of conference panels agreed on why it exists: nobody has settled who is accountable when an agentic booking goes wrong. The industry's three answers to that question are loyalty scale, merchant of record, and refusal. An East African lodge has access to none of them.",
