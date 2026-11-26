@@ -4,8 +4,9 @@ slug: kenya-alcohol-bill-clause-says-restaurant
 description: On 23 November a joint hospitality memorandum reached Parliament Buildings opposing Kenya's new alcohol Bill. Almost all of it argues about raising the drinking age from 18 to 21. The clause that would strip the licence from a hotel's dining room is a list of premises, and no version of that list published so far contains the word hotel.
 category: Big Read
 updated: 2026-11-26
+image: "img/editions/kenya-alcohol-bill-clause-says-restaurant.jpg"
+image_credit: "Photograph: Onyango George / EA Hospitality Pulse"
 ---
-
 Michael Kiragu Muthami came to Parliament Buildings on 23 November with a joint memorandum and an argument about young men. The chairman of the Pubs, Entertainment and Restaurants Association of Kenya had the publicans, the hotel workers' union, student leaders and the boda boda riders behind him, and the line he chose to lead with was about conscription. "We are against the increase of the drinking age from 18 to 21," he said. If a Kenyan is old enough to carry a gun for the country, the reasoning ran, he is old enough to be served.
 
 It is a good line and it will probably work, because the drinking age is the part of this Bill that the public can argue about. It is also the wrong fight for a hotelier to be having.
