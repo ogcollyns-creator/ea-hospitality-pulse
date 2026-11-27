@@ -1,18 +1,50 @@
 {
- "generated": "2026-11-27T15:33:19+03:00",
- "slot": "midday",
- "window_start": 1795752000,
- "observations_in_window": 446,
+ "generated": "2026-11-27T20:57:56+03:00",
+ "slot": "evening",
+ "window_start": 1795694400,
+ "observations_in_window": 1411,
  "deduped_against": 14,
  "candidates": [
   {
-   "score": 95.9,
+   "score": 91.4,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 19.8,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "21446dadd618",
+   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
+   "summary": "{\"count\":143,\"results\":[{\"agencies\":[{\"raw_name\":\"NUCLEAR REGULATORY COMMISSION\",\"name\":\"Nuclear Regulatory Commission\",\"id\":383,\"url\":\"https://www.federalregister.gov/agencies/nuclear-regulatory-commission\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/383\",\"parent_id\":null,\"slug\":\"nuclear-regulatory-commission\"}],\"agency_letters\":[],\"agency_names\":[\"Nuclear Regulatory Commission\"],",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
+   "source_id": "us-fedreg-pubinspect-hhs",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-25",
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 90.0,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 12.0,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "undated": -6,
     "page_change": -4
    },
@@ -41,13 +73,48 @@
    "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 59.5,
+   "score": 82.0,
+   "components": {
+    "tier": 40,
+    "category": 32,
+    "lead": 12.0,
+    "relevance": 8,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [
+    "fee"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "97e6b0d646b6",
+   "title": "[page changed] Federal Register \u2014 CDC notices",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest",
+   "summary": "Federal Register Documents published on or after 10/27/2026 and from Centers for Disease Control and Prevention https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=centers-for-disease-control-and-prevention&order=newest Wed, 25 Nov 2026 05:00:00 GMT The documents in this feed originate from FederalRegister.gov which displays an unofficial web version of the daily Fe",
+   "kind": "page-change",
+   "source": "Federal Register \u2014 CDC notices",
+   "source_id": "us-fedreg-cdc",
+   "tier": 1,
+   "country": "REG",
+   "category": "advisory",
+   "segments": [
+    "city",
+    "bush"
+   ],
+   "first_seen": "2026-11-26T15:43+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 advisory page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 53.6,
    "components": {
     "tier": 40,
     "category": 12,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "undated": -6,
     "page_change": -4
    },
@@ -75,13 +142,47 @@
    "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
   },
   {
-   "score": 120.2,
+   "score": 45.6,
+   "components": {
+    "tier": 40,
+    "category": 12,
+    "lead": 3.6,
+    "relevance": 0,
+    "freshness": 0.0,
+    "undated": -6,
+    "page_change": -4
+   },
+   "keywords": [],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.0,
+   "id": "bd5e5e85a187",
+   "title": "[page changed] Airlink news",
+   "url": "https://www.flyairlink.com/",
+   "summary": "Request unsuccessful. Incapsula incident ID: 100000410115318826-96733461060258413",
+   "kind": "page-change",
+   "source": "Airlink news",
+   "source_id": "air-airlink",
+   "tier": 1,
+   "country": "REG",
+   "category": "airline",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T15:42+03:00",
+   "published": null,
+   "verdict": "OPEN THIS \u2014 tier-1 airline page moved; content not auto-parsed, read it manually"
+  },
+  {
+   "score": 114.2,
    "components": {
     "tier": 40,
     "category": 18,
     "lead": 8.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -110,13 +211,58 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 104.2,
+   "score": 100.4,
+   "components": {
+    "tier": 5,
+    "category": 5,
+    "lead": 2.4,
+    "relevance": 60,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "curfew",
+    "collapse",
+    "electricity",
+    "seat",
+    "hotel",
+    "tourism",
+    "tourist",
+    "beach"
+   ],
+   "shock_terms": [
+    "curfew"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.17,
+   "id": "cd997a0b81f7",
+   "title": "Israel Faces Steep Tourism Collapse Grouping With Lebanon & Ecuador Amid Global Crises",
+   "url": "https://www.travelandtourworld.com/news/article/israel-faces-steep-tourism-collapse-grouping-with-lebanon-ecuador-amid-global-crises",
+   "summary": "Alongside Lebanon, Cuba and Ecuador, Israel is also witnessing an alarming downturn in its tourist industry. People are currently abandoning once in a lifetime trips to all four well known countries. Intensifying disputes have led to flight bans in both Israel and Lebanon. In Cuba, devastating electricity cuts and a lack of petrol have caused hotels to become deserted. In addition, bloodthirsty be",
+   "kind": "item",
+   "source": "Travel And Tour World",
+   "source_id": "gl-travelandtourworld",
+   "tier": 3,
+   "country": "GLOBAL",
+   "category": "trade",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T22:02+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 98.2,
    "components": {
     "tier": 5,
     "category": 5,
     "lead": 2.4,
     "relevance": 44,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -154,13 +300,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 103.8,
+   "score": 97.8,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 0.0,
     "relevance": 32,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10,
     "shock": 18
    },
@@ -194,13 +340,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 99.6,
+   "score": 93.6,
    "components": {
     "tier": 40,
     "category": 13,
     "lead": 4.8,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -230,13 +376,13 @@
    "verdict": "STRONG \u2014 tier-1, upstream"
   },
   {
-   "score": 95.7,
+   "score": 89.8,
    "components": {
     "tier": 40,
     "category": 7,
     "lead": 16.8,
     "relevance": 8,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [
@@ -262,16 +408,87 @@
    ],
    "first_seen": "2026-11-27T10:12+03:00",
    "published": "2026-11-26",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 90.3,
+   "score": 88.4,
+   "components": {
+    "tier": 40,
+    "category": 24,
+    "lead": 2.4,
+    "relevance": 12,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "ebola"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "fa248f8be040",
+   "title": "CPHIA 2026 : l\u2019INSP-RDC au c\u0153ur de la mobilisation africaine pour une riposte unifi\u00e9e contre Ebola.",
+   "url": "https://insp.cd/cphia-2026-linsp-rdc-au-coeur-de-la-mobilisation-africaine-pour-une-riposte-unifiee-contre-ebola",
+   "summary": "Face aux d\u00e9fis persistants de la maladie \u00e0 virus Ebola, l\u2019Institut National de Sant\u00e9 Publique (INSP) de la R\u00e9publique D\u00e9mocratique",
+   "kind": "item",
+   "source": "INSP RDC \u2014 Ebola daily situation reports (SitRep)",
+   "source_id": "cd-insp-sitrep",
+   "tier": 1,
+   "country": "GLOBAL",
+   "category": "health",
+   "segments": [
+    "City",
+    "Bush"
+   ],
+   "first_seen": "2026-11-27T01:52+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 88.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "c86e9bae7412",
+   "title": "Batik Air Malaysia Expands Tiruchirappalli Service in NW26",
+   "url": "https://www.aeroroutes.com/eng/261127-odnw26trz",
+   "summary": "Published at 1000PCT / 1700GMT 27NOV26 Batik Air Malaysia in December 2026 plans to launch service to India from Kuala Lumpur Subang, as the carrier schedules Kuala Lumpur Subang \u2013 Tiruchirappalli route. From 16DEC26, Boeing 737-800 aircraft operates this route 3 times weekly. Schedule below focuses on the period of 04JAN27 \u2013 26MAR27. OD227 SZB2200 \u2013 2310TRZ 738 135 OD228 TRZ0010 \u2013 0635SZB 738 246",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.4,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [],
@@ -294,16 +511,157 @@
    ],
    "first_seen": "2026-11-27T10:13+03:00",
    "published": "2026-11-27",
-   "verdict": "STRONG \u2014 tier-1, upstream"
+   "verdict": "CONSIDER"
   },
   {
-   "score": 88.1,
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "airline"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "5520194c5e2c",
+   "title": "Aegean Airlines Expands EGYPTAIR Codeshare in late-Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261127-a3mscodeshare",
+   "summary": "Published at 0900PCT / 1600GMT 27NOV26 Aegean Airlines earlier this month expanded codeshare partnership with EGYPTAIR, covering additional 3 routes beyond Cairo. Following codeshare routes went into effect since late-November 2026. Aegean Airlines operated by EGYPTAIR Cairo \u2013 Dar es Salaam Cairo \u2013 Hurghada Cairo \u2013 Sharm el Sheikh",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "3e4a4eb1907d",
+   "title": "TUI Airways London Gatwick \u2013 Zanzibar From Nov 2027",
+   "url": "https://www.aeroroutes.com/eng/261127-tomnw27znz",
+   "summary": "Published at 0800PCT / 1500GMT 27NOV26 TUI Airways during Northern winter 2027/28 season plans to add service to Tanzania, with nonstop London Gatwick \u2013 Zanzibar flight scheduled. Boeing 787-8 to serve this route twice weekly from 03NOV27. TOM068 LGW0830 \u2013 2100ZNZ 788 3 TOM072 LGW0830 \u2013 2100ZNZ 788 7 TOM073 ZNZ2300 \u2013 0545+1LGW 788 7 TOM069 ZNZ2300 \u2013 0545+1LGW 788 3",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 84.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 12,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "2ed791dc5a95",
+   "title": "Air Cairo Adds Dubai al Maktoum From July 2027",
+   "url": "https://www.aeroroutes.com/eng/261127-smjul27dwc",
+   "summary": "Published at 0700PCT / 1400GMT 27NOV26 Air Cairo from July 2027 plans to launch Cairo \u2013 Dubai al Maktoum route, as the carrier lists 4 weekly flights with Airbus A320 aircraft. First flight is scheduled on 01JUL27. SM509 CAI1810 \u2013 2235DWC 320 x237 SM510 DWC2335 \u2013 0200+1CAI 320 x237",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.4,
+   "components": {
+    "tier": 40,
+    "category": 18,
+    "lead": 8.4,
+    "relevance": 16,
+    "freshness": 0.0
+   },
+   "keywords": [
+    "conservanc",
+    "wildlife"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.25,
+   "id": "1398afd90175",
+   "title": "A Bull Elephant, a Wound & a New Collar: Veterinary Care in the Mara",
+   "url": "https://kws.go.ke/a-bull-elephant-a-wound-a-new-collarveterinary-care-in-the-mara",
+   "summary": "Behind every wildlife rescue is a story of hope, care and another chance at life. This one began deep in Naboisho Conservancy, where an adult male elephant was found with a deep, painful wound running through his ear and into his head. It was suspected to have been caused by a spear. The Kenya Wildlife [...]",
+   "kind": "item",
+   "source": "Kenya Wildlife Service",
+   "source_id": "ke-kws",
+   "tier": 1,
+   "country": "KE",
+   "category": "parks",
+   "segments": [
+    "bush"
+   ],
+   "first_seen": "2026-11-26T15:43+03:00",
+   "published": "2026-11-25",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 82.2,
    "components": {
     "tier": 20,
     "category": 5,
     "lead": 1.2,
     "relevance": 20,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "corroborated": 10,
     "shock": 18
    },
@@ -338,13 +696,86 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 84.2,
+   "score": 80.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 28,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "collapse",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "119bcd73fb77",
+   "title": "Air Zimbabwe Adds Leased EuroAtlantic A330 For London Service From late-Nov 2026",
+   "url": "https://www.aeroroutes.com/eng/261126-umnov26lgw",
+   "summary": "Published at 0700PCT / 1400GMT 26NOV26 Air Zimbabwe starting today (26NOV26) is adjusting operational aircraft on its Harare \u2013 London Gatwick route. The 3 weekly flights starting today will be operated by EuroAtlantic A330-300 aircraft, following the collapse of Plus Ultra Airlines. Planned 4th weekly flight for the month of December 2026 remains unchanged. UM724 HRE2150 \u2013 0620+1LGW 333 x246 UM725",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T22:02+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 80.2,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 8,
+    "freshness": 19.8,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.22,
+   "id": "d99b27348d73",
+   "title": "EGYPTAIR Adds Aleppo Service From Dec 2026",
+   "url": "https://www.aeroroutes.com/eng/261127-msdec26alp",
+   "summary": "Published at 0600PCT / 1300GMT 27NOV26 EGYPTAIR from December 2026 plans to expand service to Syria, where the carrier resumes Cairo \u2013 Aleppo route. 737-800 aircraft to serve this route 3 times weekly from 06DEC26, increasing to 4 weekly from 23DEC26. MS606 CAI0445 \u2013 0725ALP 738 x156 MS607 ALP0825 \u2013 0915CAI 738 x156",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-27T20:55+03:00",
+   "published": "2026-11-27",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 78.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 12,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -374,13 +805,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.6,
+   "score": 76.6,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 4.8,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -407,13 +838,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.3,
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [
@@ -444,13 +875,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 82.3,
+   "score": 76.4,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 16,
-    "freshness": 13.9,
+    "freshness": 8.0,
     "corroborated": 10
    },
    "keywords": [
@@ -481,13 +912,163 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 81.4,
+   "score": 76.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "route",
+    "frequency",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.12,
+   "id": "acfec592e2ba",
+   "title": "Royal Jordanian NW26 Dallas Frequency Variations",
+   "url": "https://www.aeroroutes.com/eng/261126-rjnw26dfw",
+   "summary": "Published at 0800PCT / 1500GMT 26NOV26 Royal Jordanian during Northern winter 2026/27 season adjusts planned frequencies for Amman \u2013 Dallas/Ft. Worth route. The airline since 13OCT26 has been operating 4 weekly flights, and this will increase to 6 weekly from 14DEC26 (5 weekly 26JAN27 \u2013 26FEB27). The airline schedules 1 daily flight once again during Northern summer 2027 season from 28MAR27. RJ291",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T22:02+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.4,
+   "components": {
+    "tier": 20,
+    "category": 14,
+    "lead": 8.4,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "vat",
+    "route",
+    "airline",
+    "flight"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.2,
+   "id": "856e3e7edccc",
+   "title": "Starlux Opens Sydney / Auckland Reservations for Oct 2027",
+   "url": "https://www.aeroroutes.com/eng/261126-jxoct27sw",
+   "summary": "Published at 0400PCT / 1100GMT 26NOV26 Starlux Airlines this week opened reservations for service to Oceania for flights between 25SEP27 and 29OCT27, a week after the airline opened reservations for Taipei Taoyuan \u2013 Sydney \u2013 Auckland route, for travel between 23MAR27 and 24SEP27. Schedule below focuses on the period of 02OCT27 \u2013 29OCT27. JX183 TPE1940 \u2013 0815+1SYD1110+1 \u2013 1610+1AKL 339 D JX184 AKL1",
+   "kind": "item",
+   "source": "AeroRoutes schedule filings",
+   "source_id": "aeroroutes",
+   "tier": 2,
+   "country": "GLOBAL",
+   "category": "aviation-tracker",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T15:44+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 76.0,
+   "components": {
+    "tier": 20,
+    "category": 4,
+    "lead": 0.0,
+    "relevance": 24,
+    "freshness": 0.0,
+    "corroborated": 10,
+    "shock": 18
+   },
+   "keywords": [
+    "ebola",
+    "evacuat"
+   ],
+   "shock_terms": [
+    "evacuat"
+   ],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.33,
+   "id": "a24be11e4844",
+   "title": "UN peacekeepers evacuate Ebola response workers trapped by fighting in eastern Congo",
+   "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/un-peacekeepers-evacuate-ebola-response-workers-trapped-by-fighting-in-eastern-congo-5685428",
+   "summary": "Clashes in Ituri province have intensified in recent days between the Congolese army and...",
+   "kind": "item",
+   "source": "The EastAfrican",
+   "source_id": "np-eastafrican",
+   "tier": 2,
+   "country": "REG",
+   "category": "press",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T22:02+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.8,
+   "components": {
+    "tier": 40,
+    "category": 13,
+    "lead": 4.8,
+    "relevance": 8,
+    "freshness": 0.0,
+    "corroborated": 10
+   },
+   "keywords": [
+    "airport"
+   ],
+   "shock_terms": [],
+   "dedupe_match": null,
+   "dedupe_similarity": 0.11,
+   "id": "0d2af7ed4ce1",
+   "title": "KAA meets business organisations on the draft Commercial Charges Order, 2026",
+   "url": "https://www.kaa.go.ke/kaa-meets-business-organisations-draft-commercial-charges-order",
+   "summary": "Managing Director and CEO Moses Wekesa chaired a round table in Nairobi with ten business member organisations whose members use the country's airports.",
+   "kind": "item",
+   "source": "Kenya Airports Authority",
+   "source_id": "ke-kaa",
+   "tier": 1,
+   "country": "KE",
+   "category": "aviation",
+   "segments": [
+    "city",
+    "bush",
+    "beach"
+   ],
+   "first_seen": "2026-11-26T22:01+03:00",
+   "published": "2026-11-26",
+   "verdict": "CONSIDER"
+  },
+  {
+   "score": 75.4,
    "components": {
     "tier": 40,
     "category": 32,
     "lead": 3.6,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "stale_trap": -10,
     "page_change": -4
    },
@@ -514,13 +1095,13 @@
    "verdict": "CHECK \u2014 source date older than the window"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 4,
     "lead": 2.4,
     "relevance": 24,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -551,13 +1132,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -584,13 +1165,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -617,13 +1198,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -650,13 +1231,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -683,13 +1264,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -716,13 +1297,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 40,
     "category": 24,
     "lead": 2.4,
     "relevance": 0,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "undated": -6
    },
    "keywords": [],
@@ -749,13 +1330,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -784,13 +1365,13 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 80.2,
+   "score": 74.2,
    "components": {
     "tier": 20,
     "category": 14,
     "lead": 8.4,
     "relevance": 8,
-    "freshness": 19.8,
+    "freshness": 13.8,
     "corroborated": 10
    },
    "keywords": [
@@ -820,594 +1401,44 @@
    "verdict": "CONSIDER"
   },
   {
-   "score": 78.2,
+   "score": 74.2,
    "components": {
     "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 4,
-    "freshness": 19.8,
+    "category": 5,
+    "lead": 1.2,
+    "relevance": 20,
+    "freshness": 0.0,
     "corroborated": 10,
     "shock": 18
    },
    "keywords": [
-    "operator"
+    "occupancy",
+    "strike",
+    "hotel"
    ],
    "shock_terms": [
-    "attack"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "c8f21155850b",
-   "title": "Machetes, motorcycles and theft: The fear gripping Coast region",
-   "url": "https://nation.africa/kenya/counties/machetes-motorcycles-and-theft-the-fear-gripping-coast-region-5686008",
-   "summary": "The attacks have forced some bodaboda operators to reconsider working at night.",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.9,
-   "components": {
-    "tier": 40,
-    "category": 7,
-    "lead": 6.0,
-    "relevance": 0,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.33,
-   "id": "2d12c817a02b",
-   "title": "Somalia to Begin Issuing East African Community E-Passport in January 2027",
-   "url": "https://www.eac.int/press-releases/148-immigration-and-labour/3632-somalia-to-begin-issuing-east-african-community-e-passport-in-january-2027",
-   "summary": "East African Community Headquarters, Arusha, Tanzania, 27th November, 2026: The Federal Republic of Somalia is set to begin issuing the East African Community (EAC) electronic Passport in January 2027, marking a significant milestone in the country\u2019s integration into the Community and advancing efforts to facilitate the free movement of East Africans across the region. The announcement was made du",
-   "kind": "item",
-   "source": "East African Community \u2014 Secretariat news",
-   "source_id": "eac-secretariat",
-   "tier": 1,
-   "country": "Regional",
-   "category": "body",
-   "segments": [
-    "city"
-   ],
-   "first_seen": "2026-11-27T10:12+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
+    "attack",
     "strike"
    ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.14,
-   "id": "2dc2ae85b0c2",
-   "title": "Court strikes out petitions challenging Sh45bn NTSA instant fines deal",
-   "url": "https://nation.africa/kenya/counties/homa-bay/court-strikes-out-petitions-challenging-sh45bn-ntsa-instant-fines-deal-5685888",
-   "summary": "Court struck out petitions challenging NTSA deal with Pesa Print Limited for rollout of smart...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:14+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.3,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 8,
-    "freshness": 13.9,
-    "corroborated": 10,
-    "shock": 18
-   },
-   "keywords": [
-    "strike"
-   ],
-   "shock_terms": [
-    "strike"
-   ],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "f68ea4316010",
-   "title": "End standoff to avert clinical officers\u2019 strike",
-   "url": "https://nation.africa/kenya/blogs-opinion/editorials/end-standoff-to-avert-clinical-officers-strike-5685792",
-   "summary": "The concerned parties should soften their hard-line stances so that the matter is...",
-   "kind": "item",
-   "source": "Nation Africa: Kenya business",
-   "source_id": "ke-nation-business",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:14+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 76.2,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 4,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "70aa4d048184",
-   "title": "Air Algerie Plans Warsaw Service in NS27",
-   "url": "https://www.aeroroutes.com/eng/261127-ahns27waw",
-   "summary": "Published at 0300PCT / 1000GMT 27NOV26 Air Algerie in Northern summer 2027 season intends to launch service to Poland, with 2 weekly flights to Warsaw scheduled. Planned operation as follows. Algiers \u2013 Budapest \u2013 Warsaw \u2013 Algiers eff 28MAR27 1 weekly 737-700 AH2080 ALG0935 \u2013 1325BUD1420 \u2013 1540WAW1640 \u2013 1915ALG 73W 7 Algiers \u2013 Warsaw \u2013 Budapest \u2013 Algiers eff 30MAR27 1 weekly 737-600 AH2080 ALG0930 ",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 75.5,
-   "components": {
-    "tier": 40,
-    "category": 32,
-    "lead": 3.6,
-    "relevance": 0,
-    "freshness": 13.9,
-    "stale_trap": -10,
-    "page_change": -4
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "109a23833d30",
-   "title": "[page changed] Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "url": "https://www.federalregister.gov/api/v1/public-inspection-documents/current.json",
-   "summary": "{\"count\":141,\"results\":[{\"agencies\":[{\"raw_name\":\"RAILROAD RETIREMENT BOARD\",\"name\":\"Railroad Retirement Board\",\"id\":444,\"url\":\"https://www.federalregister.gov/agencies/railroad-retirement-board\",\"json_url\":\"https://www.federalregister.gov/api/v1/agencies/444\",\"parent_id\":null,\"slug\":\"railroad-retirement-board\"}],\"agency_letters\":[],\"agency_names\":[\"Railroad Retirement Board\"],\"docket_numbers\":[],",
-   "kind": "page-change",
-   "source": "Federal Register \u2014 public inspection (HHS/CDC), pre-publication",
-   "source_id": "us-fedreg-pubinspect-hhs",
-   "tier": 1,
-   "country": "REG",
-   "category": "advisory",
-   "segments": [
-    "city",
-    "bush"
-   ],
-   "first_seen": "2026-11-27T10:13+03:00",
-   "published": "2026-11-24",
-   "verdict": "CHECK \u2014 source date older than the window"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.25,
-   "id": "2df5a51e704f",
-   "title": "House Grants Leave for Bill to Establish National Food Reserves Thursday, 26 November 2026",
-   "url": "https://www.parliament.go.ug/news/4764/house-grants-leave-bill-establish-national-food-reserves",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "5b8201a588dc",
-   "title": "Minister raises concern over increasing online GBV Thursday, 26 November 2026",
-   "url": "https://www.parliament.go.ug/news/4763/minister-raises-concern-over-increasing-online-gbv",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "44ef939c43a2",
-   "title": "MPs Hail Museveni's Leadership in EAC, Call for Faster Political Federation Thursday, 26 November 2026",
-   "url": "https://www.parliament.go.ug/news/4762/mps-hail-musevenis-leadership-eac-call-faster-political-federation",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Uganda",
-   "source_id": "ug-parliament",
-   "tier": 1,
-   "country": "UG",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.7,
-   "components": {
-    "tier": 40,
-    "category": 10,
-    "lead": 16.8,
-    "relevance": 0,
-    "freshness": 13.9,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "776e99db688d",
-   "title": "\ud835\udc00\ud835\udc0d\ud835\udc13\ud835\udc08-\ud835\udc03\ud835\udc0e\ud835\udc0f\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b \ud835\udc16\ud835\udc08\ud835\udc0d\ud835\udc12 \ud835\udc01\ud835\udc11\ud835\udc0e\ud835\udc00\ud835\udc03 \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13 \ud835\udc00\ud835\udc12 \ud835\udc12\ud835\udc13\ud835\udc00\ud835\udc0a\ud835\udc04\ud835\udc07\ud835\udc0e\ud835\udc0b\ud835\udc03\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc10\ud835\udc14\ud835\udc04\ud835\udc12\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc00\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc18\u2019\ud835\udc12 \ud835\udc04\ud835\udc17\ud835\udc02\ud835\udc0b\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc0c\ud835\udc00\ud835\udc0d\ud835\udc03\ud835\udc00\ud835\udc13\ud835\udc04",
-   "url": "https://www.parliament.go.ke/node/26738",
-   "summary": "",
-   "kind": "item",
-   "source": "Parliament of Kenya \u2014 bills & papers",
-   "source_id": "ke-parliament",
-   "tier": 1,
-   "country": "KE",
-   "category": "legislature",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:12+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.4,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 24,
-    "freshness": 14.0,
-    "corroborated": 10
-   },
-   "keywords": [
-    "levy",
-    "fuel",
-    "diesel"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.1,
-   "id": "2eda592a81a4",
-   "title": "MPs Raise Alarm Over Plot to Borrow Ksh 140B Against Fuel Levy",
-   "url": "https://www.kenyans.co.ke/news/129721-govt-plans-raise-ksh-140b-securitising-more-fuel-levy-collections-cs-chirchir-says",
-   "summary": "Motorists pay a road maintenance levy whenever they purchase petrol or diesel, with fresh scrutiny emerging over how the money collected is being used.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:14+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.22,
-   "id": "799180b8bfe9",
-   "title": "Aeroitalia Expands Comiso Network From Dec 2026",
-   "url": "https://www.aeroroutes.com/eng/261126-xzdec26ciy",
-   "summary": "Published at 2100PCT 26NOV26 / 0400GMT 27NOV26 Aeroitalia in December 2026 plans to expand service at Comiso , with the launch of 3 routes with HelloJets Boeing 737-700 aircraft. Comiso \u2013 Malta eff 16DEC26 3 weekly 737-700 (HelloJets) XZ2138 CIY1500 \u2013 1550MLA 73G 357 XZ2139 MLA1650 \u2013 1750CIT 73G 357 Comiso \u2013 Naples eff 15DEC26 2 weekly 737-700 (HelloJets) XZ2136 CIY1440 \u2013 1540NAP 73G 26 XZ2137 NAP",
-   "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
-   "tier": 2,
-   "country": "GLOBAL",
-   "category": "aviation-tracker",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T10:14+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 74.3,
-   "components": {
-    "tier": 20,
-    "category": 14,
-    "lead": 8.4,
-    "relevance": 8,
-    "freshness": 13.9,
-    "corroborated": 10
-   },
-   "keywords": [
-    "route"
-   ],
-   "shock_terms": [],
    "dedupe_match": null,
    "dedupe_similarity": 0.2,
-   "id": "d35d2e458bb2",
-   "title": "Luxair Adds Riga From May 2027",
-   "url": "https://www.aeroroutes.com/eng/261126-lgns27rix",
-   "summary": "Published at 1800PCT 26NOV26 / 0100GMT 27NOV26 Luxair this week announced new route launch on Luxembourg \u2013 Riga route, primarily operated by Embraer E195-E2 aircraft. From 03MAY27, this route will be served twice weekly, although selected dates may see Boeing 737-700 operating. LG5713 LUX0900 \u2013 1230RIX 295 1 LG5713 LUX1130 \u2013 1500RIX 295 5 LG5714 RIX1320 \u2013 1450LUX 295 1 LG5714 RIX1550 \u2013 1720LUX 295",
+   "id": "5a86cb2bf7ab",
+   "title": "Houthi Attacks Gut Riyadh\u2019s Peak Season",
+   "url": "https://skift.com/2026/11/26/houthi-attacks-gut-riyadhs-peak-season",
+   "summary": "Riyadh\u2019s fourth quarter runs on international corporate and event demand that flies in, and the missile strikes hit that badly. Domestic demand can\u2019t fill the gap, so hotels will trade rate for occupancy in the quarter that in normal times supports their strongest pricing.",
    "kind": "item",
-   "source": "AeroRoutes schedule filings",
-   "source_id": "aeroroutes",
+   "source": "Skift",
+   "source_id": "tp-skift",
    "tier": 2,
    "country": "GLOBAL",
-   "category": "aviation-tracker",
+   "category": "trade",
    "segments": [
     "city",
     "bush",
     "beach"
    ],
-   "first_seen": "2026-11-27T10:14+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 73.8,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 0.0,
-    "relevance": 20,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "vat",
-    "wildlife",
-    "tourism"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "3204d18bd7ff",
-   "title": "New UWA Board Pledges Fresh Approach to Human-wildlife Conflict",
-   "url": "https://softpower.ug/new-uwa-board-pledges-fresh-approach-to-human-wildlife-conflict",
-   "summary": "The new Uganda Wildlife Authority (UWA) Board of Trustees has pledged to adopt new approaches to human-wildlife conflict, poaching and community conservation as it takes over the management of the country\u2019s wildlife resources. The 11th board, inaugurated by Tourism, Wildlife and Antiquities Minister Col. Tom Butime on Thursday, November 26, will be chaired by Prof. [\u2026] The post New UWA Board Pledg",
-   "kind": "item",
-   "source": "SoftPower News \u2014 Tourism & Travel (Uganda)",
-   "source_id": "ug-softpower-tourism",
-   "tier": 2,
-   "country": "UG",
-   "category": "press",
-   "segments": [
-    "bush",
-    "city"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 72.2,
-   "components": {
-    "tier": 20,
-    "category": 4,
-    "lead": 2.4,
-    "relevance": 16,
-    "freshness": 19.8,
-    "corroborated": 10
-   },
-   "keywords": [
-    "arrivals",
-    "airline",
-    "flight"
-   ],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.11,
-   "id": "14cef3841117",
-   "title": "Kenyans Warned of Flight Disruptions Over Closure of Nairobi Airspace",
-   "url": "https://www.kenyans.co.ke/news/129727-flights-be-affected-nairobi-airspace-closes-3-dates",
-   "summary": "The planned restrictions are expected to affect flight schedules, with some airlines announcing adjustments to some departures and arrivals.",
-   "kind": "item",
-   "source": "Kenyans.co.ke news",
-   "source_id": "ke-kenyans",
-   "tier": 2,
-   "country": "KE",
-   "category": "press",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": "2026-11-27",
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.8,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "cfddc75c1a3c",
-   "title": "\ud835\udc0f\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc11\ud835\udc14\ud835\udc13\ud835\udc0e \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \ud835\udc13\ud835\udc0e \ud835\udc13\ud835\udc16\ud835\udc0e \ud835\udc12\ud835\udc04\ud835\udc17\ud835\udc14\ud835\udc00\ud835\udc0b \ud835\udc0e\ud835\udc05\ud835\udc05\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b\ud835\udc12 \ud835\udc13\ud835\udc0e \ud835\udc12\ud835\udc13\ud835\udc11\ud835\udc04\ud835\udc0d\ud835\udc06\ud835\udc13\ud835\udc07\ud835\udc04\ud835\udc0d \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d \ud835\udc0e\ud835\udc05 \ud835\udc15\ud835\udc08\ud835\udc02\ud835\udc13\ud835\udc08\ud835\udc0c\ud835\udc12 \ud835\udc00\ud835\udc0d\ud835\udc03 \ud835\udc00\ud835\udc02\ud835\udc02\ud835\udc04\ud835\udc12\ud835\udc12 \ud835\udc13\ud835\udc0e \ud835\udc09\ud835\udc14\ud835\udc12\ud835\udc13\ud835\udc08\ud835\udc02\ud835\udc04",
-   "url": "https://www.parliament.go.ke/node/26743",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": null,
-   "verdict": "CONSIDER"
-  },
-  {
-   "score": 70.8,
-   "components": {
-    "tier": 40,
-    "category": 5,
-    "lead": 12.0,
-    "relevance": 0,
-    "freshness": 19.8,
-    "undated": -6
-   },
-   "keywords": [],
-   "shock_terms": [],
-   "dedupe_match": null,
-   "dedupe_similarity": 0.0,
-   "id": "dbaed6056095",
-   "title": "\ud835\udc16\ud835\udc08\ud835\udc0d \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc04\ud835\udc0d\ud835\udc15\ud835\udc08\ud835\udc11\ud835\udc0e\ud835\udc0d\ud835\udc0c\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc00\ud835\udc0b \ud835\udc0f\ud835\udc11\ud835\udc0e\ud835\udc05\ud835\udc04\ud835\udc12\ud835\udc12\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc00\ud835\udc0b\ud835\udc12 \ud835\udc00\ud835\udc12 \ud835\udc0f\ud835\udc11\ud835\udc04\ud835\udc12\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc0d\ud835\udc13 \ud835\udc00\ud835\udc12\ud835\udc12\ud835\udc04\ud835\udc0d\ud835\udc13\ud835\udc12 \ud835\udc01\ud835\udc08\ud835\udc0b\ud835\udc0b",
-   "url": "https://www.parliament.go.ke/node/26742",
-   "summary": "",
-   "kind": "item",
-   "source": "Senate Committee on Delegated Legislation (Kenya) \u2014 the committee that annuls or accedes to statutory instruments",
-   "source_id": "ke-senate-delegated-legislation",
-   "tier": 1,
-   "country": "KE",
-   "category": "REG",
-   "segments": [
-    "city",
-    "bush",
-    "beach"
-   ],
-   "first_seen": "2026-11-27T15:32+03:00",
-   "published": null,
+   "first_seen": "2026-11-26T15:44+03:00",
+   "published": "2026-11-26",
    "verdict": "CONSIDER"
   }
  ]
