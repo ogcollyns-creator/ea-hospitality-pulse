@@ -1,5 +1,14 @@
 window.GUIDES = [
  {
+  "slug": "expedia-kiwi-unprotected-connection-east-africa",
+  "title": "Expedia is buying the company that invented the unprotected connection. The missed one lands on your lodge.",
+  "description": "On 25 November Expedia Group agreed to buy Kiwi.com, the platform that built a business out of selling air journeys no airline is obliged to complete. East Africa is reached almost entirely on connections, and Europe has just written the gap between a protected connection and an unprotected one into law. The bed-night at the end of the broken itinerary belongs to an East African operator, and nothing in the deal, the law or the booking tells that operator it is coming.",
+  "category": "Big Read",
+  "updated": "2026-11-28",
+  "readMins": 8,
+  "image": "img/editions/expedia-kiwi-unprotected-connection-east-africa.jpg"
+ },
+ {
   "slug": "kenya-alcohol-bill-clause-says-restaurant",
   "title": "Kenya's hotels are arguing about the drinking age. The clause that closes the bar says \"restaurant\".",
   "description": "On 23 November a joint hospitality memorandum reached Parliament Buildings opposing Kenya's new alcohol Bill. Almost all of it argues about raising the drinking age from 18 to 21. The clause that would strip the licence from a hotel's dining room is a list of premises, and no version of that list published so far contains the word hotel.",
