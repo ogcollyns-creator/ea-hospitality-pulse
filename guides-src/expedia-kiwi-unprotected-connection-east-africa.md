@@ -4,8 +4,9 @@ slug: expedia-kiwi-unprotected-connection-east-africa
 description: On 25 November Expedia Group agreed to buy Kiwi.com, the platform that built a business out of selling air journeys no airline is obliged to complete. East Africa is reached almost entirely on connections, and Europe has just written the gap between a protected connection and an unprotected one into law. The bed-night at the end of the broken itinerary belongs to an East African operator, and nothing in the deal, the law or the booking tells that operator it is coming.
 category: Big Read
 updated: 2026-11-28
+image: "img/editions/expedia-kiwi-unprotected-connection-east-africa.jpg"
+image_credit: "Image: SalesTech Star, used by permission"
 ---
-
 The announcement ran to a few hundred words and never used the phrase that mattered. On 25 November, from Seattle, Expedia Group said it had agreed to acquire Kiwi.com, the Czech flight platform founded in 2012, and described it in the blandest terms available: a company that "uses proprietary technology to help travelers search and book air travel". Ariane Gorin, Expedia Group's chief executive, said she was "delighted to welcome Kiwi.com to Expedia Group" and that "Oliver and team have built an innovative flights platform that already serves millions of travelers". Oliver Dlouhý, Kiwi.com's co-founder and chief executive, called it "a deeply meaningful moment for me" after fourteen years. The deal is expected to close in the first half of 2027, subject to customary closing conditions. No price was disclosed, and Expedia declined to give one when Skift asked.
 
 Three phrases are absent from that announcement. Virtual interlining. Self-transfer. The Kiwi.com Guarantee. They are the only three things about Kiwi.com that an East African hotelier needs to understand, and the silence around them is the most interesting part of the document.
